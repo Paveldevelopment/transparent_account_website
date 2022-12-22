@@ -1,0 +1,47 @@
+
+.account_name {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    border-width: thick;
+    border-color: #0a77a9;
+    border-style: solid;
+    background-color:  #0a77a9;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.account_name_text {
+    background-color:  #0a77a9;
+    color: white;
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+
+.transaction_list_parent_flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.transaction_list_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_children {
+    background-color: rgba(10, 119, 169, 0.5);
+    width: 19%;
+    padding-left: 10px;
+    padding-right: 0%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.filter {
+    text-align: center; 
+}

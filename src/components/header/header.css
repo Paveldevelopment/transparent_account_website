@@ -1,0 +1,52 @@
+
+
+
+.header_strip {
+    background-color: #0a77a9;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;   
+    z-index: 1;
+}
+
+.text {
+    background-color: #0a77a9;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10px;
+    color: white;
+    padding-left: 110px;
+}
+
+.text_child {
+    background-color: #0a77a9;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.bank_logo {
+    background-color: #0a77a9;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    z-index: 2;   
+}
+
+.bank_logo:active {
+    width: 60px;
+    height: 60px;
+}
+
+
+.phone_logo {
+    background-color: #0a77a9;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
