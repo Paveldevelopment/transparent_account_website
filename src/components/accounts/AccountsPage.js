@@ -3,7 +3,7 @@ import useFetchJSON from '../../hooks/useFetchJSON'
 import './accountspage.css'
 
 
-import AccountsFilter from './AccountsFilter'
+
 import AccountsList from './AccountsList'
 
 function Accounts() {

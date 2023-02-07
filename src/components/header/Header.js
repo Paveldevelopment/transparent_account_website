@@ -8,12 +8,9 @@ function Header() {
   return (
     <div>
         <div className='header_strip'>
-       
             <div className='text'>
                 <img className='phone_logo' src={phoneLogo} alt='image'></img>
                 <span className='text_child'>7774 774 774</span>
-               
-                
             </div>
         </div>
         <Link to='/'>
@@ -22,10 +19,6 @@ function Header() {
               src={img} alt='image'>
           </img>
         </Link>
-        
-      
-         
-         
     </div>
   )
 }

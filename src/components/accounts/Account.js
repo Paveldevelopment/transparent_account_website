@@ -4,7 +4,6 @@ import './account.css'
 
 function Account({data}) {
 
-    console.log('Account', data.identification.iban)
   return (
       <div className='list_parent'>
           <Link className='content_text' to={`/transactionpage/${data.identification.iban}`}>{data.name}</Link>
@@ -12,5 +11,6 @@ function Account({data}) {
       </div>
   )
 }
+
 
 export default Account

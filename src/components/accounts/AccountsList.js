@@ -5,9 +5,11 @@ function AccountsList({data}) {
   return (
     <>
       {data && 
-        data.map(dat => {
+        data.map((dat, index) => {
           return (
-            <Account data={dat}/>
+            <React.Fragment key={index}>
+               <Account data={dat}/>
+            </React.Fragment>
           )
           
         })

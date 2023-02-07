@@ -6,13 +6,13 @@ function useFetchJSON(path) {
 
 
     const getData = () => {
-        fetch(path
-        ,{
-          headers : { 
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-           }
-        }
+        fetch(path,
+          {
+            headers : { 
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            }
+          }
         )
           .then(function(response){
             console.log('response', response)
@@ -26,7 +26,6 @@ function useFetchJSON(path) {
       useEffect(()=>{
         getData()
       }, [])
-
 
 
   return { data }

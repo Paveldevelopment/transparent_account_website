@@ -1,6 +1,4 @@
 
-
-
 .list_parent {
     display: flex;
     justify-content: center;
@@ -9,8 +7,6 @@
 
 
 .content_text {
-    
     width: 200px;
     padding-left: 10px;
-   
 }

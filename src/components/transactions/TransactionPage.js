@@ -15,8 +15,6 @@ function TransactionPage() {
     setFilterData(dat)
   }
   
-  console.log('FILTERDATA', id,  filterData)
-
   return (
     <div>
         <div className='account_name'>
@@ -36,9 +34,10 @@ function TransactionPage() {
             <TransactionsList filterData={filterData}/>
           </div>
         </div>
-       
     </div>
   )
 }
+
+
 
 export default TransactionPage

@@ -3,14 +3,10 @@
 .transaction_page_filter {
     border-color: rgb(	10	119	169);
     border-width:thin;
-    
     background-color: rgba(10,	119, 169, 0.4);
-    
     width: 40%;
     margin-top: 0px;
     border-radius: 10px;
     font-size: large;
     padding-top: 10px;
-    
-    
 }
